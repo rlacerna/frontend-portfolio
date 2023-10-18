@@ -3,7 +3,7 @@ import App from "./App";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import { aboutLoader, projectsLoader } from "./loader";
+import { aboutLoader, projectsLoader } from "./loaders";
 
 const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<App/>}>
